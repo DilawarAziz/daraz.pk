@@ -1,0 +1,122 @@
+body{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    height:800px;
+}
+.main{
+ 
+    /* display: flex; */
+
+    flex-direction: column;
+    width: 60%;
+    height: 721px;
+    border: 5px solid royalblue;
+    /* text-align: center; */
+    background-color:seashell;
+    border-radius: 23px;
+}
+#input-parent{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+/* justify-content: center; */
+width: 100%;
+/* border: 2px solid red; */
+align-items: center;
+/* height: 200px; */
+}
+ul{ 
+    padding-left: 0px;
+    margin: 0px;
+     /* overflow-y: scroll; */
+    height: 610px;
+    /* border: 2px solid red; */
+    /* text-align: center;*/
+    display: flex;
+    flex-direction: column;
+    /* justify-content:space-evenly; */
+    align-items: center;
+}
+li{
+    /* background-color: rgb(19, 22, 29); */
+    background-color:royalblue;
+    margin: 5px;
+    width: 90%;
+    display: flex;
+    /* justify-content:right */
+    border-radius: 10px;
+    list-style: circle;
+    list-style-position: inside;
+    list-style:lower-greek ;
+    border: 2px solid aqua;
+}
+input{
+    padding-left: 10px;
+    border: 3px solid royalblue;
+    margin-top: 10px;
+    width: 80%;
+    height: 40px;
+    border-radius: 9px;
+    /* background-color: royalblue; */
+    font-size: 23px;
+}
+input:hover{
+    background-color: aqua;
+}
+.btn{
+    width: 70px;
+    height: 20px;
+    /* text-align: ; */
+    margin: 3px 5px;
+    border-radius: 300px;
+    background-color: aqua;
+    /* background-color:transparent; */
+}
+.btn:hover{
+background-color: seashell;
+cursor: pointer;
+
+}
+.btn-parent{
+    /* border: 2px solid red; */
+width: 50%;
+/* background-color: royalblue; */
+text-align:right;
+
+}
+h1{
+    width: auto;
+    margin: 0px;
+    font-size: 18px;
+    padding: 2px 0px 0px 15px;
+    color: white;
+}
+.pmt{
+    /* display: flex; */
+    width: 25%;
+    height: 30px;
+    border: 2px solid royalblue;
+}
+.permanent-btn{
+    text-align: center;
+    width: 100%;
+}
+h5{
+    margin: 0px;
+    width: 50%;
+    color:aqua;
+    padding:10px 0px 0px 10px;
+}
+#para{
+    display: flex;
+    height: 600px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+@media only screen {
+    
+}
