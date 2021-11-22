@@ -1,0 +1,295 @@
+
+@import url(style.css);
+@media only screen and (max-width:500px ) {
+    /* .cate-parent img{
+        height: 100px;
+            
+        ;
+    } */
+    /* .parent-items{
+    }
+     */
+    .main img{
+        width: 100%;
+        height: 100px;
+    }
+    #slide{
+        width: 104%;
+        height: 234px;
+        margin-left: -8px;
+    }
+    .parent-items{
+        height: 380px;
+        display: none;
+    }
+    nav{
+        height: 340px;
+    }
+    .main-items{
+        margin: 0px;
+    }
+    #logo1{
+        display: none;
+    }
+    #cart1{
+        display: none;
+    }
+    #nav-add{
+        display: none;
+    }
+    #input input{
+        width: 100%;
+        height: 33px;
+        margin: 0px 7px;
+        background-color: white;
+        font-size: 12px;
+        background-image: url("photos/logo-2.png");
+        /* background-image: none; */
+        background-size: 20px;
+        padding-left: 40px;
+        /* padding-top: ; */
+        background-position-x:10px;
+        background-position-y: 6px;
+    }
+    #input input:focus{
+        padding-left: 5px;
+    }
+    #main-nav{
+        height: 60px;
+        background-color: royalblue;
+    }
+    .pages{
+        /* font-size: 8px; */
+        display: none;
+    }
+    .branches-img{
+        width: 40px;
+    }
+    .branches-parent{ 
+        font-size: 5px;
+        margin: 5px;
+     }
+     /* #main-nav{
+        height: 50px;
+    } */
+    #lorem-main-img{
+        display: none;
+    }
+    .lorem{
+        display: none;
+    }
+    .main-branch{
+
+        grid-template-columns: repeat(5,auto);
+    }
+    .branches-parent{
+        /* text-decoration: none; */
+        box-shadow: none;
+        flex-direction: column;
+        flex-wrap:nowrap;
+    }
+    .branches-parent img{
+        width: 100%;
+        height: 80px;
+        padding: 0px;
+        
+    }
+    .hidden1{
+        display:inline-block;
+        /* visibility: visible; */
+    }
+    .br-h1{ 
+        font-size: 8px;
+        margin: 5px;
+   } 
+   .heading h1{
+       font-size: 18px;
+   }
+
+
+
+/* .cate-parent{ */
+    /* height: 115px; */
+/* } */
+
+#aa a{
+    border: none;
+     color: rgb(13, 142, 228);
+     font-size: 11px;
+}
+.main-splash{
+    display: flex;
+    overflow-x: scroll;
+}
+.heading{
+    margin-top: 20px;
+}
+.cate-parent-1{
+    font-size: 8px;
+    }
+
+.splash{
+    /* heading */
+    margin-top: 0px;
+}
+
+.cate-parent-1{
+font-size: 6px;
+/* width: 3000px; */
+padding: 3px;
+}
+#splash-h1{
+    padding: 0px 25px;
+}
+
+   .cate-parent img{
+    width :90%;
+    height: 70px;
+}
+
+
+
+    #cate-h1{
+font-size: 12px;
+    }
+    
+
+
+
+    .coll-parent{
+        font-size: 8px;
+    }
+    
+
+.main-foryou{
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+.foryou-parent img{
+    height: 100px;
+}
+h3{
+    font-size: 10px;
+}
+.foryou-parent h1{
+    font-size: 16px;
+}
+.foryou-parent p{
+    font-size: 10px;
+}
+#base{
+    display: none;
+}
+#load{
+    display: none;
+}
+
+.time , .time h1{
+
+    display: none;
+    
+}
+
+.flash{
+    display: flex;
+    justify-content: center;
+}
+
+.flash h1{ 
+    font-size: 16px;
+    padding-right: 10px;    
+}
+.parent-time1{
+    height: 16px;
+}
+
+
+.aa-1 a{
+    border: none;
+
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:800px ) and (min-width:500px){
+    #slide{
+        width: 100%;
+        height: 300px;
+    }
+   
+   nav{
+       height: 550px;
+   }
+    .pages{
+            font-size: 10px;
+        }
+        /* width: 60%; */
+        #input input{
+            background-size: 40px;
+            
+        }
+        .parent-items{
+            display: none;
+        }
+        
+        
+        /* .branches-img{
+            width: 70px;
+        } */
+        .br-h1{ 
+            font-size: 13px;
+            margin: 5px;
+       } 
+       .footer,.main-fixed-footer , .main-logo{
+        display: none;
+        }
+        
+        .time , .time h1{
+            display: none;
+        }
+        /* .splash{
+            display: flex;
+        } */
+        /*  */
+        .flash{
+            display: flex;
+            justify-content: center;
+           
+        }
+    
+        
+} 
+@media only screen and (max-width: 2000px) and (min-width:800px){
+
+.footer,.main-fixed-footer , .main-logo{
+display: none;
+}
+
+
+
+
+}
+
+
